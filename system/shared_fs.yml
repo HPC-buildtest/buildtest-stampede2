@@ -1,0 +1,10 @@
+version: 0.0.1
+
+filesystem_check:
+  type: script
+  description: "Check $HOME, $WORK, $SCRATCH, $STOCKYARD are accessible"
+  run: |
+    ls $HOME
+    ls $WORK
+    ls $SCRATCH
+    ls $STOCKYARD

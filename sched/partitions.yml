@@ -1,0 +1,31 @@
+version: 0.0.1
+partition_state:
+  type: script
+  description: Display slurm partition and availability
+  run: sinfo -O available,partition -h
+
+drained_nodes:
+  type: script
+  description: List reason for drained and down nodes
+  run: sinfo -R
+
+queue_limits:
+  type: script
+  description: Check queue limits n real-time via 'qlimits' 
+  run: qlimits
+
+show_qos:
+  type: script
+  description: Show Slurm Quality of Service (QOS) with priority
+  run: sacctmgr show qos --format=name,priority
+
+slurm_account_query:
+  type: script
+  description: Test if slurm accounting (sacct) is working 
+  run: sacct -S 2020-01-01 --format=jobid,user,ncpus,ntasks,state,exit
+
+showq_test:
+  type: script
+  description: Test if showq command is working
+  run: showq
+

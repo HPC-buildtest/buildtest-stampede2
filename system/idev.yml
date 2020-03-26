@@ -1,0 +1,13 @@
+version: 0.0.1
+idev_exists:
+  type: script
+  description: Check if idev command exists
+  run: |
+  file /bin/idev
+  which idev
+  idev -v
+
+submit_via_idev:
+  type: script
+  description: Run job via idev on 'normal' partition with 1 Node 1 task for 2 min
+  run: idev -p normal -N 1 -n 1 -m 2

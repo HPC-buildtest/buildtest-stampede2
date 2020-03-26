@@ -1,0 +1,5 @@
+version: 0.0.1
+check_default_lmod_module:
+  type: script
+  description: Check if LMOD_SYSTEM_DEFAULT_MODULES is set to TACC
+  run: if [ "$LMOD_SYSTEM_DEFAULT_MODULES" == "TACC" ]; then echo "SUCCESS"; fi
