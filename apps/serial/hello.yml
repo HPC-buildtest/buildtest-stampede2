@@ -1,0 +1,24 @@
+version: 0.0.1
+fortan_hello:
+  type: script
+  description: hello world program in Fortran compiled with gnu compiler
+  run: |
+    SRCDIR=$WORK/buildtest-stampede2/apps/serial/src
+    gfortran -o hello_f90 $SRCDIR/hello.f90
+    ./hello_f90
+
+c_hello:
+  type: script
+  description: hello world program in C compiled with gnu compiler
+  run: |
+    SRCDIR=$WORK/buildtest-stampede2/apps/serial/src
+    gcc -o hello_c $SRCDIR/hello.c
+    ./hello_c
+
+cplusplus_hello:
+  type: script
+  description: hello world program in C++ compiled with gnu compiler
+  run: |
+    SRCDIR=$WORK/buildtest-stampede2/apps/serial/src
+    g++ -o hello_cpp $SRCDIR/hello.cpp
+    ./hello_cpp
