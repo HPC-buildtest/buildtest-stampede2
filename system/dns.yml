@@ -1,0 +1,19 @@
+version: 0.0.1
+ping_nameserver:
+  type: script
+  description: Ping stampede2 name servers
+  run: |
+    ping -c 5 206.76.192.1
+    ping -c 5 129.114.97.1
+    ping -c 5 129.114.97.2
+
+nslookup_dns:
+  type: script
+  description: check if forward and reverse zone lookup for name servers
+  run: |
+    nslookup 206.76.192.1
+    nslookup 129.114.97.1
+    nslookup 129.114.97.2
+    nslookup ns1
+    nslookup ns2
+    nslookup ns3

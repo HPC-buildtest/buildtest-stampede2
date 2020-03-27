@@ -1,0 +1,22 @@
+version: 0.0.1
+missing_total_tasks:
+  description: This job fails because '-n' option is required
+  type: script
+  run: srun -p normal -N1 -t 00:10 hostname
+  
+missing_total_nodes:
+  description: This job fails because '-N' option is required
+  type: script
+  run: srun -p normal -n1 -t 00:10 hostname
+
+
+missing_walltime:
+  description: This job fails because '-t' option is required
+  type: script
+  run: srun -p normal -n1 -N1 hostname
+
+
+memory_option_not_available:
+  description: This job fails because '--mem' option is not supported in stampede2
+  type: script
+  run: srun -p normal -n1 -N1 -t 00:00 --mem 50M hostname
