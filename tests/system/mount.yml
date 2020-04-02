@@ -1,0 +1,11 @@
+version: 0.0.1
+check_mounts:
+  type: script
+  description: Check important mount points for stampede2
+  run: |
+    mountpoint /admin
+    mountpoint /scratch
+    mountpoint /home
+    mountpoint /work
+    mountpoint /gpfs/corral3/tacc
+    mountpoint /gpfs/corral3/repl

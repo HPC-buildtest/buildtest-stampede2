@@ -1,0 +1,5 @@
+version: 0.0.1
+get_timezone:
+  type: script
+  description: Make sure timezone is set to CDT
+  run: timedatectl | grep "Time zone" |  awk '{print $3'}

@@ -1,0 +1,9 @@
+version: 0.0.1
+tacc_help_showTip:
+  type: script
+  description: test command showTip provided by tacc_help module
+  run: |
+    module load tacc_help
+    showTip -v
+    showTip -n 1
+    showTip -a

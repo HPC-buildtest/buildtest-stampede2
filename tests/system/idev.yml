@@ -3,9 +3,9 @@ idev_exists:
   type: script
   description: Check if idev command exists
   run: |
-  file /bin/idev
-  which idev
-  idev -v
+    file /bin/idev
+    which idev
+    idev -v
 
 submit_via_idev:
   type: script

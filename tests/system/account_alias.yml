@@ -3,14 +3,14 @@ account_alias_check:
   type: script
   description: "This will check the account alias 'cdh, cdw, cds, cdy, cdg'"
   run: |
-  type cdh
-  type cdw
-  type cds
-  type cdy
-  type cdg
-  cdh
-  cdw
-  cds
-  cdy
-  cdg
+    type cdh
+    type cdw
+    type cds
+    type cdy
+    type cdg
+    cdh
+    cdw
+    cds
+    cdy
+    cdg
 
