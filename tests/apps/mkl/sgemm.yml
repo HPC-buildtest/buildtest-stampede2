@@ -1,0 +1,42 @@
+version: 0.0.1
+sgemm_test1:
+  type: script
+  description: sgemm test one against intel/18.0.2
+  env:
+    srcdir: $WORK/buildtest-stampede2/tests/apps/mkl/src
+    exe: sgemm
+    cc: icc
+    cflags: -mkl
+  run: |
+    module load intel/18.0.2
+    $cc --version
+    $cc $cflags $srcdir/mkl_sgemm.c -o $exe
+    ./$exe
+ 
+sgemm_test2:
+  type: script
+  description: sgemm test one against intel/17.0.4
+  env:
+    srcdir: $WORK/buildtest-stampede2/tests/apps/mkl/src
+    exe: sgemm
+    cc: icc
+    cflags: -mkl
+  run: |
+    module load intel/17.0.4
+    $cc --version
+    $cc $cflags $srcdir/mkl_sgemm.c -o $exe
+    ./$exe
+
+sgemm_test3:
+  type: script
+  description: sgemm test one against intel/16.0.3
+  env:
+    srcdir: $WORK/buildtest-stampede2/tests/apps/mkl/src
+    exe: sgemm
+    cc: icc
+    cflags: -mkl
+  run: |
+    module load intel/16.0.3
+    $cc --version
+    $cc $cflags $srcdir/mkl_sgemm.c -o $exe
+    ./$exe

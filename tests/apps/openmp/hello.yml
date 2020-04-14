@@ -3,25 +3,29 @@ version: 0.0.1
 hello_c_openmp:
   description: Hello World example with OpenMP using gnu compiler
   type: script
+  env:
+    srcdir: $WORK/buildtest-stampede2/tests/apps/openmp/src
+    exe: hello
   run: |
-    SRCDIR=$WORK/buildtest-stampede2/apps/openmp/src
-    gcc -fopenmp -o hello $SRCDIR/omp_hello.c
+    gcc -fopenmp -o $exe $srcdir/omp_hello.c
     OMP_NUM_THREADS=2
-    ./hello
+    ./$exe
 
     OMP_NUM_THREADS=4
-    ./hello
+    ./$exe
 
 job_test:
   description: Hello World example with OpenMP using gnu compiler
   type: script
+  env:
+    srcdir: $WORK/buildtest-stampede2/tests/apps/openmp/src
+    exe: hello_sbatch
   run: |
     #SBATCH -N 1
     #SBATCH -n 1
     #SBATCH -p normal
     #SBATCH -t 00:10
-    SRCDIR=$WORK/buildtest-stampede2/apps/openmp/src
-    gcc -fopenmp -o hello $SRCDIR/omp_hello.c
+    gcc -fopenmp -o $exe $srcdir/omp_hello.c
     OMP_NUM_THREADS=2
-    ./hello
+    ./$exe
 
