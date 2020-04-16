@@ -1,5 +1,11 @@
 version: 0.0.1
 systemd_default_target:
   type: script
-  description: get the name of the default target
-  run: if [ "multi-user.target" == `systemctl get-default` ]; then echo "multi-user target enabled"; fi
+  description: check if default target is multi-user.target
+  run: |
+    if [ "multi-user.target" == `systemctl get-default` ]; then
+      echo "multi-user is the default target";
+      exit 0
+    fi
+    echo "multi-user is not the default target";
+    exit 1

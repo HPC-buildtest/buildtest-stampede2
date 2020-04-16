@@ -2,4 +2,4 @@ version: 0.0.1
 check_kernel:
   type: script
   description: Check if kernel version is matching
-  run: if [ `uname -r1` = "3.10.0-957.5.1.el7.x86_64" ]; then true; fi
+  run: if [ `uname -r` = "3.10.0-957.5.1.el7.x86_64" ]; then true; fi
