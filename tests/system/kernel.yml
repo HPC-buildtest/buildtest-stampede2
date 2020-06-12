@@ -1,5 +1,6 @@
-version: 0.0.1
+version: "1.0"
 check_kernel:
+  executor: local.bash
   type: script
   description: Check if kernel version is matching
   run: if [ `uname -r` = "3.10.0-957.5.1.el7.x86_64" ]; then true; fi

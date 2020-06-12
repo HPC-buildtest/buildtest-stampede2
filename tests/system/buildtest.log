@@ -1,0 +1,348 @@
+2020-06-12 15:50:28,482 [main.py:21 -  main() ] - [INFO] Starting buildtest log
+2020-06-12 15:50:28,483 [system.py:28 - __init__() ] - [DEBUG] Starting System Compatibility Check
+2020-06-12 15:50:28,539 [system.py:49 - init_system() ] - [DEBUG] Operating System: CentOS Linux 7 Core
+2020-06-12 15:50:28,540 [system.py:51 - init_system() ] - [DEBUG] Session Environment Variables
+2020-06-12 15:50:28,540 [system.py:52 - init_system() ] - [DEBUG] ________________________________________________________________________________
+2020-06-12 15:50:28,540 [system.py:54 - init_system() ] - [DEBUG] I_MPI_STARTUP_MODE
+2020-06-12 15:50:28,540 [system.py:54 - init_system() ] - [DEBUG] LMOD_FAMILY_COMPILER_VERSION
+2020-06-12 15:50:28,540 [system.py:54 - init_system() ] - [DEBUG] MKLROOT
+2020-06-12 15:50:28,540 [system.py:54 - init_system() ] - [DEBUG] TACC_GIT_BIN
+2020-06-12 15:50:28,540 [system.py:54 - init_system() ] - [DEBUG] MANPATH
+2020-06-12 15:50:28,540 [system.py:54 - init_system() ] - [DEBUG] TACC_CMAKE_BIN
+2020-06-12 15:50:28,540 [system.py:54 - init_system() ] - [DEBUG] TACC_IMPI_DIR
+2020-06-12 15:50:28,540 [system.py:54 - init_system() ] - [DEBUG] XDG_SESSION_ID
+2020-06-12 15:50:28,540 [system.py:54 - init_system() ] - [DEBUG] HOSTNAME
+2020-06-12 15:50:28,540 [system.py:54 - init_system() ] - [DEBUG] TACC_INTEL_INC
+2020-06-12 15:50:28,540 [system.py:54 - init_system() ] - [DEBUG] TACC_XALT_DIR
+2020-06-12 15:50:28,540 [system.py:54 - init_system() ] - [DEBUG] _ModuleTable003_
+2020-06-12 15:50:28,540 [system.py:54 - init_system() ] - [DEBUG] TACC_PYTHON3_DIR
+2020-06-12 15:50:28,540 [system.py:54 - init_system() ] - [DEBUG] INTEL_LICENSE_FILE
+2020-06-12 15:50:28,540 [system.py:54 - init_system() ] - [DEBUG] IPPROOT
+2020-06-12 15:50:28,540 [system.py:54 - init_system() ] - [DEBUG] I_MPI_F77
+2020-06-12 15:50:28,540 [system.py:54 - init_system() ] - [DEBUG] MPICH_HOME
+2020-06-12 15:50:28,540 [system.py:54 - init_system() ] - [DEBUG] PIP_PYTHON_PATH
+2020-06-12 15:50:28,540 [system.py:54 - init_system() ] - [DEBUG] SHELL
+2020-06-12 15:50:28,540 [system.py:54 - init_system() ] - [DEBUG] TERM
+2020-06-12 15:50:28,540 [system.py:54 - init_system() ] - [DEBUG] __LMOD_REF_COUNT_MODULEPATH
+2020-06-12 15:50:28,540 [system.py:54 - init_system() ] - [DEBUG] TACC_INTEL_DIR
+2020-06-12 15:50:28,540 [system.py:54 - init_system() ] - [DEBUG] TACC_LIBFABRIC_BIN
+2020-06-12 15:50:28,541 [system.py:54 - init_system() ] - [DEBUG] HISTSIZE
+2020-06-12 15:50:28,541 [system.py:54 - init_system() ] - [DEBUG] LMOD_ROOT
+2020-06-12 15:50:28,541 [system.py:54 - init_system() ] - [DEBUG] I_MPI_FABRICS
+2020-06-12 15:50:28,541 [system.py:54 - init_system() ] - [DEBUG] TACC_IMPI_BIN
+2020-06-12 15:50:28,541 [system.py:54 - init_system() ] - [DEBUG] GLOBUS_LOCATION
+2020-06-12 15:50:28,541 [system.py:54 - init_system() ] - [DEBUG] SSH_CLIENT
+2020-06-12 15:50:28,541 [system.py:54 - init_system() ] - [DEBUG] LMOD_SYSTEM_DEFAULT_MODULES
+2020-06-12 15:50:28,541 [system.py:54 - init_system() ] - [DEBUG] TACC_LIBFABRIC_DIR
+2020-06-12 15:50:28,541 [system.py:54 - init_system() ] - [DEBUG] XALT_EXECUTABLE_TRACKING
+2020-06-12 15:50:28,541 [system.py:54 - init_system() ] - [DEBUG] LIBRARY_PATH
+2020-06-12 15:50:28,541 [system.py:54 - init_system() ] - [DEBUG] TACC_LIBFABRIC_INC
+2020-06-12 15:50:28,541 [system.py:54 - init_system() ] - [DEBUG] __LMOD_REF_COUNT_COMPILER_PATH
+2020-06-12 15:50:28,541 [system.py:54 - init_system() ] - [DEBUG] LD_PRELOAD
+2020-06-12 15:50:28,541 [system.py:54 - init_system() ] - [DEBUG] TACC_PYTHON3_MAN
+2020-06-12 15:50:28,541 [system.py:54 - init_system() ] - [DEBUG] LMOD_PKG
+2020-06-12 15:50:28,541 [system.py:54 - init_system() ] - [DEBUG] TACC_FAMILY_COMPILER_VERSION
+2020-06-12 15:50:28,541 [system.py:54 - init_system() ] - [DEBUG] OLDPWD
+2020-06-12 15:50:28,541 [system.py:54 - init_system() ] - [DEBUG] QTDIR
+2020-06-12 15:50:28,541 [system.py:54 - init_system() ] - [DEBUG] QTINC
+2020-06-12 15:50:28,541 [system.py:54 - init_system() ] - [DEBUG] LMOD_VERSION
+2020-06-12 15:50:28,541 [system.py:54 - init_system() ] - [DEBUG] SSH_TTY
+2020-06-12 15:50:28,541 [system.py:54 - init_system() ] - [DEBUG] I_MPI_JOB_FAST_STARTUP
+2020-06-12 15:50:28,541 [system.py:54 - init_system() ] - [DEBUG] __LMOD_REF_COUNT_LOADEDMODULES
+2020-06-12 15:50:28,541 [system.py:54 - init_system() ] - [DEBUG] QT_GRAPHICSSYSTEM_CHECKED
+2020-06-12 15:50:28,541 [system.py:54 - init_system() ] - [DEBUG] TACC_IMPI_INC
+2020-06-12 15:50:28,541 [system.py:54 - init_system() ] - [DEBUG] TACC_INTEL_BIN
+2020-06-12 15:50:28,541 [system.py:54 - init_system() ] - [DEBUG] USER
+2020-06-12 15:50:28,541 [system.py:54 - init_system() ] - [DEBUG] LD_LIBRARY_PATH
+2020-06-12 15:50:28,541 [system.py:54 - init_system() ] - [DEBUG] LS_COLORS
+2020-06-12 15:50:28,541 [system.py:54 - init_system() ] - [DEBUG] PSTLROOT
+2020-06-12 15:50:28,541 [system.py:54 - init_system() ] - [DEBUG] __TRACKER__
+2020-06-12 15:50:28,541 [system.py:54 - init_system() ] - [DEBUG] TACC_XALT_BIN
+2020-06-12 15:50:28,542 [system.py:54 - init_system() ] - [DEBUG] TACC_PYTHON3_BIN
+2020-06-12 15:50:28,542 [system.py:54 - init_system() ] - [DEBUG] __PERSONAL_PATH__
+2020-06-12 15:50:28,542 [system.py:54 - init_system() ] - [DEBUG] CPATH
+2020-06-12 15:50:28,542 [system.py:54 - init_system() ] - [DEBUG] IFC_BIN
+2020-06-12 15:50:28,542 [system.py:54 - init_system() ] - [DEBUG] TACC_GIT_DIR
+2020-06-12 15:50:28,542 [system.py:54 - init_system() ] - [DEBUG] TACC_MKL_LIB
+2020-06-12 15:50:28,542 [system.py:54 - init_system() ] - [DEBUG] _ModuleTable004_
+2020-06-12 15:50:28,542 [system.py:54 - init_system() ] - [DEBUG] __LMOD_REF_COUNT__LMFILES_
+2020-06-12 15:50:28,542 [system.py:54 - init_system() ] - [DEBUG] VIRTUAL_ENV
+2020-06-12 15:50:28,542 [system.py:54 - init_system() ] - [DEBUG] LMOD_FAMILY_MPI_VERSION
+2020-06-12 15:50:28,542 [system.py:54 - init_system() ] - [DEBUG] TACC_FAMILY_PYTHON
+2020-06-12 15:50:28,542 [system.py:54 - init_system() ] - [DEBUG] ARCHIVER
+2020-06-12 15:50:28,542 [system.py:54 - init_system() ] - [DEBUG] __LMOD_REF_COUNT_I_MPI_ROOT
+2020-06-12 15:50:28,542 [system.py:54 - init_system() ] - [DEBUG] NLSPATH
+2020-06-12 15:50:28,542 [system.py:54 - init_system() ] - [DEBUG] PIPENV_ACTIVE
+2020-06-12 15:50:28,542 [system.py:54 - init_system() ] - [DEBUG] PATH
+2020-06-12 15:50:28,542 [system.py:54 - init_system() ] - [DEBUG] MAIL
+2020-06-12 15:50:28,542 [system.py:54 - init_system() ] - [DEBUG] TACC_SYSTEM
+2020-06-12 15:50:28,542 [system.py:54 - init_system() ] - [DEBUG] _ModuleTable001_
+2020-06-12 15:50:28,542 [system.py:54 - init_system() ] - [DEBUG] ICC_BIN
+2020-06-12 15:50:28,542 [system.py:54 - init_system() ] - [DEBUG] I_MPI_OFI_LIBRARY
+2020-06-12 15:50:28,542 [system.py:54 - init_system() ] - [DEBUG] __LMOD_REF_COUNT_NLSPATH
+2020-06-12 15:50:28,542 [system.py:54 - init_system() ] - [DEBUG] STOCKYARD
+2020-06-12 15:50:28,542 [system.py:54 - init_system() ] - [DEBUG] TACC_GIT_LIB
+2020-06-12 15:50:28,542 [system.py:54 - init_system() ] - [DEBUG] WORK
+2020-06-12 15:50:28,542 [system.py:54 - init_system() ] - [DEBUG] TACC_LIBFABRIC_LIB
+2020-06-12 15:50:28,542 [system.py:54 - init_system() ] - [DEBUG] TBBROOT
+2020-06-12 15:50:28,542 [system.py:54 - init_system() ] - [DEBUG] PWD
+2020-06-12 15:50:28,542 [system.py:54 - init_system() ] - [DEBUG] INPUTRC
+2020-06-12 15:50:28,542 [system.py:54 - init_system() ] - [DEBUG] TACC_FAMILY_PYTHON_VERSION
+2020-06-12 15:50:28,542 [system.py:54 - init_system() ] - [DEBUG] _LMFILES_
+2020-06-12 15:50:28,543 [system.py:54 - init_system() ] - [DEBUG] LANG
+2020-06-12 15:50:28,543 [system.py:54 - init_system() ] - [DEBUG] __LMOD_REF_COUNT_PYTHONPATH
+2020-06-12 15:50:28,543 [system.py:54 - init_system() ] - [DEBUG] MODULEPATH
+2020-06-12 15:50:28,543 [system.py:54 - init_system() ] - [DEBUG] _ModuleTable_Sz_
+2020-06-12 15:50:28,543 [system.py:54 - init_system() ] - [DEBUG] LOADEDMODULES
+2020-06-12 15:50:28,543 [system.py:54 - init_system() ] - [DEBUG] __BASHRC_SOURCED__
+2020-06-12 15:50:28,543 [system.py:54 - init_system() ] - [DEBUG] PS1
+2020-06-12 15:50:28,543 [system.py:54 - init_system() ] - [DEBUG] I_MPI_F90
+2020-06-12 15:50:28,543 [system.py:54 - init_system() ] - [DEBUG] TACC_VEC_FLAGS
+2020-06-12 15:50:28,543 [system.py:54 - init_system() ] - [DEBUG] PYTHONDONTWRITEBYTECODE
+2020-06-12 15:50:28,543 [system.py:54 - init_system() ] - [DEBUG] LMOD_CMD
+2020-06-12 15:50:28,543 [system.py:54 - init_system() ] - [DEBUG] GIT_TEMPLATE_DIR
+2020-06-12 15:50:28,543 [system.py:54 - init_system() ] - [DEBUG] I_MPI_CC
+2020-06-12 15:50:28,543 [system.py:54 - init_system() ] - [DEBUG] LMOD_FAMILY_PYTHON_VERSION
+2020-06-12 15:50:28,543 [system.py:54 - init_system() ] - [DEBUG] _ModuleTable005_
+2020-06-12 15:50:28,543 [system.py:54 - init_system() ] - [DEBUG] DAALROOT
+2020-06-12 15:50:28,543 [system.py:54 - init_system() ] - [DEBUG] TACC_MKL_INC
+2020-06-12 15:50:28,543 [system.py:54 - init_system() ] - [DEBUG] TACC_PYTHON3_LIB
+2020-06-12 15:50:28,543 [system.py:54 - init_system() ] - [DEBUG] LMOD_FAMILY_PYTHON
+2020-06-12 15:50:28,543 [system.py:54 - init_system() ] - [DEBUG] TACC_AUTOTOOLS_DIR
+2020-06-12 15:50:28,543 [system.py:54 - init_system() ] - [DEBUG] HOME
+2020-06-12 15:50:28,543 [system.py:54 - init_system() ] - [DEBUG] SHLVL
+2020-06-12 15:50:28,543 [system.py:54 - init_system() ] - [DEBUG] FI_PROVIDER
+2020-06-12 15:50:28,543 [system.py:54 - init_system() ] - [DEBUG] TACC_DOMAIN
+2020-06-12 15:50:28,543 [system.py:54 - init_system() ] - [DEBUG] __LMOD_REF_COUNT_PATH
+2020-06-12 15:50:28,543 [system.py:54 - init_system() ] - [DEBUG] I_MPI_CXX
+2020-06-12 15:50:28,543 [system.py:54 - init_system() ] - [DEBUG] TACC_FAMILY_COMPILER
+2020-06-12 15:50:28,543 [system.py:54 - init_system() ] - [DEBUG] TACC_INTEL_LIB
+2020-06-12 15:50:28,543 [system.py:54 - init_system() ] - [DEBUG] TACC_PYTHON_VER
+2020-06-12 15:50:28,543 [system.py:54 - init_system() ] - [DEBUG] X509_USER_PROXY
+2020-06-12 15:50:28,543 [system.py:54 - init_system() ] - [DEBUG] __LMOD_REF_COUNT_CPATH
+2020-06-12 15:50:28,544 [system.py:54 - init_system() ] - [DEBUG] _ModuleTable002_
+2020-06-12 15:50:28,544 [system.py:54 - init_system() ] - [DEBUG] IFC_LIB
+2020-06-12 15:50:28,544 [system.py:54 - init_system() ] - [DEBUG] BASH_ENV
+2020-06-12 15:50:28,544 [system.py:54 - init_system() ] - [DEBUG] I_MPI_FC
+2020-06-12 15:50:28,544 [system.py:54 - init_system() ] - [DEBUG] LOGNAME
+2020-06-12 15:50:28,544 [system.py:54 - init_system() ] - [DEBUG] ICC_LIB
+2020-06-12 15:50:28,544 [system.py:54 - init_system() ] - [DEBUG] PYTHONPATH
+2020-06-12 15:50:28,544 [system.py:54 - init_system() ] - [DEBUG] TACC_FAMILY_MPI
+2020-06-12 15:50:28,544 [system.py:54 - init_system() ] - [DEBUG] XALT_SAMPLING
+2020-06-12 15:50:28,544 [system.py:54 - init_system() ] - [DEBUG] PIP_DISABLE_PIP_VERSION_CHECK
+2020-06-12 15:50:28,544 [system.py:54 - init_system() ] - [DEBUG] CVS_RSH
+2020-06-12 15:50:28,544 [system.py:54 - init_system() ] - [DEBUG] QTLIB
+2020-06-12 15:50:28,544 [system.py:54 - init_system() ] - [DEBUG] LMOD_SETTARG_TITLE_BAR
+2020-06-12 15:50:28,544 [system.py:54 - init_system() ] - [DEBUG] SSH_CONNECTION
+2020-06-12 15:50:28,544 [system.py:54 - init_system() ] - [DEBUG] XDG_DATA_DIRS
+2020-06-12 15:50:28,544 [system.py:54 - init_system() ] - [DEBUG] MODULESHOME
+2020-06-12 15:50:28,544 [system.py:54 - init_system() ] - [DEBUG] __LMOD_REF_COUNT_LIBRARY_PATH
+2020-06-12 15:50:28,544 [system.py:54 - init_system() ] - [DEBUG] LESSOPEN
+2020-06-12 15:50:28,544 [system.py:54 - init_system() ] - [DEBUG] LMOD_SETTARG_FULL_SUPPORT
+2020-06-12 15:50:28,544 [system.py:54 - init_system() ] - [DEBUG] COMPILER_PATH
+2020-06-12 15:50:28,544 [system.py:54 - init_system() ] - [DEBUG] __LMOD_REF_COUNT_LD_LIBRARY_PATH
+2020-06-12 15:50:28,544 [system.py:54 - init_system() ] - [DEBUG] OMP_NUM_THREADS
+2020-06-12 15:50:28,544 [system.py:54 - init_system() ] - [DEBUG] PKG_CONFIG_PATH
+2020-06-12 15:50:28,544 [system.py:54 - init_system() ] - [DEBUG] __Init_Default_Modules
+2020-06-12 15:50:28,544 [system.py:54 - init_system() ] - [DEBUG] PROMPT_COMMAND
+2020-06-12 15:50:28,544 [system.py:54 - init_system() ] - [DEBUG] __LMOD_REF_COUNT_LD_PRELOAD
+2020-06-12 15:50:28,544 [system.py:54 - init_system() ] - [DEBUG] LMOD_FAMILY_COMPILER
+2020-06-12 15:50:28,544 [system.py:54 - init_system() ] - [DEBUG] TACC_IMPI_LIB
+2020-06-12 15:50:28,544 [system.py:54 - init_system() ] - [DEBUG] XDG_RUNTIME_DIR
+2020-06-12 15:50:28,544 [system.py:54 - init_system() ] - [DEBUG] ARCHIVE
+2020-06-12 15:50:28,544 [system.py:54 - init_system() ] - [DEBUG] __LMOD_REF_COUNT_INTEL_LICENSE_FILE
+2020-06-12 15:50:28,544 [system.py:54 - init_system() ] - [DEBUG] TACC_AUTOTOOLS_BIN
+2020-06-12 15:50:28,545 [system.py:54 - init_system() ] - [DEBUG] TACC_FAMILY_MPI_VERSION
+2020-06-12 15:50:28,545 [system.py:54 - init_system() ] - [DEBUG] LMOD_DIR
+2020-06-12 15:50:28,545 [system.py:54 - init_system() ] - [DEBUG] __LMOD_DEFAULT_MODULES_LOADED__
+2020-06-12 15:50:28,545 [system.py:54 - init_system() ] - [DEBUG] __LMOD_REF_COUNT_MANPATH
+2020-06-12 15:50:28,545 [system.py:54 - init_system() ] - [DEBUG] _ModuleTable006_
+2020-06-12 15:50:28,545 [system.py:54 - init_system() ] - [DEBUG] __LMOD_Priority_PATH
+2020-06-12 15:50:28,545 [system.py:54 - init_system() ] - [DEBUG] SCRATCH
+2020-06-12 15:50:28,545 [system.py:54 - init_system() ] - [DEBUG] FI_PSM2_LAZY_CONN
+2020-06-12 15:50:28,545 [system.py:54 - init_system() ] - [DEBUG] GIT_EXEC_PATH
+2020-06-12 15:50:28,545 [system.py:54 - init_system() ] - [DEBUG] LMOD_FAMILY_MPI
+2020-06-12 15:50:28,545 [system.py:54 - init_system() ] - [DEBUG] TACC_MKL_DIR
+2020-06-12 15:50:28,545 [system.py:54 - init_system() ] - [DEBUG] TACC_MPI_GETMODE
+2020-06-12 15:50:28,545 [system.py:54 - init_system() ] - [DEBUG] TACC_PYTHON3_INC
+2020-06-12 15:50:28,545 [system.py:54 - init_system() ] - [DEBUG] I_MPI_ROOT
+2020-06-12 15:50:28,545 [system.py:54 - init_system() ] - [DEBUG] TACC_CMAKE_DIR
+2020-06-12 15:50:28,545 [system.py:54 - init_system() ] - [DEBUG] BASH_FUNC_module()
+2020-06-12 15:50:28,545 [system.py:54 - init_system() ] - [DEBUG] BASH_FUNC_ml()
+2020-06-12 15:50:28,545 [system.py:54 - init_system() ] - [DEBUG] _
+2020-06-12 15:50:28,545 [system.py:54 - init_system() ] - [DEBUG] COLUMNS
+2020-06-12 15:50:28,545 [system.py:55 - init_system() ] - [DEBUG] ________________________________________________________________________________
+2020-06-12 15:50:28,545 [system.py:56 - init_system() ] - [DEBUG] Python Path: /home1/06908/sms1990/.local/share/virtualenvs/buildtest-framework-AeH_CFst/bin/python
+2020-06-12 15:50:28,947 [system.py:66 - check_lmod() ] - [DEBUG] LMOD_DIR: True
+2020-06-12 15:50:28,947 [system.py:38 - __init__() ] - [DEBUG] Finished System Compatibility Check
+2020-06-12 15:50:28,958 [utils.py:40 - load_schema() ] - [DEBUG] Successfully loaded schema file: /home1/06908/sms1990/.buildtest/settings.yml
+2020-06-12 15:50:28,961 [utils.py:40 - load_schema() ] - [DEBUG] Successfully loaded schema file: /home1/06908/sms1990/.buildtest/settings.yml
+2020-06-12 15:50:28,962 [utils.py:40 - load_schema() ] - [DEBUG] Successfully loaded schema file: /work/06908/sms1990/stampede2/buildtest-framework/buildtest/settings/settings.schema.json
+2020-06-12 15:50:28,962 [config.py:68 - check_settings() ] - [DEBUG] Loading default settings schema: /work/06908/sms1990/stampede2/buildtest-framework/buildtest/settings/settings.schema.json
+2020-06-12 15:50:28,962 [config.py:70 - check_settings() ] - [DEBUG] Validating user schema: {'executors': {'local': {'bash': {'description': 'submit jobs on local machine using bash shell', 'shell': 'bash'}, 'sh': {'description': 'submit jobs on local machine using sh shell', 'shell': 'sh'}, 'python': {'description': 'submit jobs on local machine using python shell', 'shell': 'python'}}, 'ssh': {'localhost': {'host': 'localhost', 'user': 'siddiq90', 'identity_file': '~/.ssh/id_rsa'}}}, 'config': {'editor': 'vi', 'paths': {'prefix': '/tmp'}}} with schema: {'$id': 'https://buildtesters.github.io/schemas/settings/settings.schema.json', '$schema': 'http://json-schema.org/draft-07/schema#', 'title': 'Buildtest Settings Schema', 'type': 'object', 'required': ['config', 'executors'], 'additionalProperties': False, 'properties': {'executors': {'type': 'object', 'properties': {'local': {'type': 'object', 'patternProperties': {'^.*$': {'$ref': '#/definitions/local'}}}, 'slurm': {'type': 'object', 'patternProperties': {'^.*$': {'$ref': '#/definitions/slurm'}}}, 'ssh': {'type': 'object', 'patternProperties': {'^.*$': {'$ref': '#/definitions/ssh'}}}}, 'additionalProperties': False}, 'config': {'type': 'object', 'properties': {'editor': {'type': 'string', 'enum': ['vi', 'vim', 'nano', 'emacs'], 'default': 'vim'}, 'paths': {'type': 'object', 'properties': {'prefix': {'type': 'string'}, 'clonepath': {'type': 'string'}, 'logdir': {'type': 'string'}, 'testdir': {'type': 'string'}}}}, 'additionalProperties': False}, 'additionalProperties': False}, 'definitions': {'env': {'type': 'object', 'description': 'One or more key value pairs for an environment (key=value)', 'minItems': 1, 'items': {'type': 'object', 'minItems': 1, 'propertyNames': {'pattern': '^[A-Za-z_][A-Za-z0-9_]*$'}}}, 'modules': {'type': 'object', 'properties': {'purge': {'type': 'boolean'}, 'load': {'type': 'array', 'items': {'type': 'string'}}}, 'additionalProperties': False}, 'local': {'type': 'object', 'properties': {'description': {'type': 'string'}, 'shell': {'type': 'string', 'pattern': '^(/bin/bash|/bin/sh|sh|bash|python).*'}, 'environment': {'$ref': '#/definitions/env'}, 'variables': {'$ref': '#/definitions/env'}, 'retry': {'type': 'integer', 'minimum': 1, 'maximum': 5}, 'modules': {'$ref': '#/definitions/modules'}}, 'additionalProperties': False}, 'slurm': {'type': 'object', 'properties': {'description': {'type': 'string'}, 'launcher': {'type': 'string', 'enum': ['sbatch']}, 'options': {'type': 'array', 'items': {'type': 'string'}}, 'environment': {'$ref': '#/definitions/env'}, 'variables': {'$ref': '#/definitions/env'}, 'modules': {'$ref': '#/definitions/modules'}}, 'additionalProperties': False, 'required': ['launcher']}, 'ssh': {'type': 'object', 'properties': {'description': {'type': 'string'}, 'host': {'type': 'string'}, 'user': {'type': 'string'}, 'identity_file': {'type': 'string'}, 'environment': {'$ref': '#/definitions/env'}, 'variables': {'$ref': '#/definitions/env'}, 'modules': {'$ref': '#/definitions/modules'}}, 'required': ['host', 'user', 'identity_file'], 'additionalProperties': False}}}
+2020-06-12 15:50:28,965 [config.py:72 - check_settings() ] - [DEBUG] Validation was successful
+2020-06-12 15:50:28,965 [build.py:68 - discover_buildspecs() ] - [DEBUG] BuildSpec: selinux.yml is a file
+2020-06-12 15:50:28,966 [build.py:87 - discover_buildspecs() ] - [INFO] Found the following config files: ['/work/06908/sms1990/stampede2/buildtest-stampede2/tests/system/selinux.yml']
+2020-06-12 15:50:28,966 [build.py:68 - discover_buildspecs() ] - [DEBUG] BuildSpec: shared_fs.yml is a file
+2020-06-12 15:50:28,966 [build.py:87 - discover_buildspecs() ] - [INFO] Found the following config files: ['/work/06908/sms1990/stampede2/buildtest-stampede2/tests/system/shared_fs.yml']
+2020-06-12 15:50:28,966 [build.py:68 - discover_buildspecs() ] - [DEBUG] BuildSpec: systemd.yml is a file
+2020-06-12 15:50:28,966 [build.py:87 - discover_buildspecs() ] - [INFO] Found the following config files: ['/work/06908/sms1990/stampede2/buildtest-stampede2/tests/system/systemd.yml']
+2020-06-12 15:50:28,966 [build.py:68 - discover_buildspecs() ] - [DEBUG] BuildSpec: timezone.yml is a file
+2020-06-12 15:50:28,966 [build.py:87 - discover_buildspecs() ] - [INFO] Found the following config files: ['/work/06908/sms1990/stampede2/buildtest-stampede2/tests/system/timezone.yml']
+2020-06-12 15:50:28,966 [build.py:68 - discover_buildspecs() ] - [DEBUG] BuildSpec: ulimits.yml is a file
+2020-06-12 15:50:28,966 [build.py:87 - discover_buildspecs() ] - [INFO] Found the following config files: ['/work/06908/sms1990/stampede2/buildtest-stampede2/tests/system/ulimits.yml']
+2020-06-12 15:50:28,966 [build.py:207 - func_build_subcmd() ] - [DEBUG] Based on input argument: --buildspec ['selinux.yml', 'shared_fs.yml', 'systemd.yml', 'timezone.yml', 'ulimits.yml'] buildtest discovered the following Buildspecs: ['/work/06908/sms1990/stampede2/buildtest-stampede2/tests/system/ulimits.yml', '/work/06908/sms1990/stampede2/buildtest-stampede2/tests/system/selinux.yml', '/work/06908/sms1990/stampede2/buildtest-stampede2/tests/system/systemd.yml', '/work/06908/sms1990/stampede2/buildtest-stampede2/tests/system/shared_fs.yml', '/work/06908/sms1990/stampede2/buildtest-stampede2/tests/system/timezone.yml']
+2020-06-12 15:50:28,969 [base.py:60 - __init__() ] - [DEBUG] buildtest found the available schema: {'script': {'1.0': 'script-v1.0.schema.json', 'latest': 'script-v1.0.schema.json'}, 'compiler': {'1.0': 'compiler-v1.0.schema.json', 'latest': 'compiler-v1.0.schema.json'}} in schema library
+2020-06-12 15:50:28,975 [utils.py:40 - load_schema() ] - [DEBUG] Successfully loaded schema file: /work/06908/sms1990/stampede2/buildtest-framework/buildtest/buildsystem/schemas/global.schema.json
+2020-06-12 15:50:28,975 [base.py:103 - _validate_global() ] - [DEBUG] Validating /work/06908/sms1990/stampede2/buildtest-stampede2/tests/system/ulimits.yml with schema: /work/06908/sms1990/stampede2/buildtest-framework/buildtest/buildsystem/schemas/global.schema.json
+2020-06-12 15:50:28,976 [base.py:108 - _validate_global() ] - [DEBUG] Validation was successful
+2020-06-12 15:50:28,977 [utils.py:40 - load_schema() ] - [DEBUG] Successfully loaded schema file: /work/06908/sms1990/stampede2/buildtest-framework/buildtest/buildsystem/schemas/script/script-v1.0.schema.json
+2020-06-12 15:50:28,979 [utils.py:40 - load_schema() ] - [DEBUG] Successfully loaded schema file: /work/06908/sms1990/stampede2/buildtest-framework/buildtest/buildsystem/schemas/script/script-v1.0.schema.json
+2020-06-12 15:50:28,981 [utils.py:40 - load_schema() ] - [DEBUG] Successfully loaded schema file: /work/06908/sms1990/stampede2/buildtest-framework/buildtest/buildsystem/schemas/script/script-v1.0.schema.json
+2020-06-12 15:50:28,982 [base.py:290 - __init__() ] - [DEBUG] Processing Buildspec: /work/06908/sms1990/stampede2/buildtest-stampede2/tests/system/ulimits.yml
+2020-06-12 15:50:28,982 [base.py:291 - __init__() ] - [DEBUG] Processing Buildspec section: ulimit_filelock
+2020-06-12 15:50:28,988 [base.py:318 - __init__() ] - [DEBUG] Shell Details: 
+2020-06-12 15:50:28,988 [base.py:319 - __init__() ] - [DEBUG] Shell Name: bash
+2020-06-12 15:50:28,988 [base.py:320 - __init__() ] - [DEBUG] Shell Opts: 
+2020-06-12 15:50:28,988 [base.py:321 - __init__() ] - [DEBUG] Shell Path: /bin/bash
+2020-06-12 15:50:28,988 [base.py:322 - __init__() ] - [DEBUG] Shell Shebang: #!/bin/bash
+2020-06-12 15:50:28,988 [base.py:324 - __init__() ] - [DEBUG] Shebang used for test: #!/bin/bash
+2020-06-12 15:50:28,988 [base.py:290 - __init__() ] - [DEBUG] Processing Buildspec: /work/06908/sms1990/stampede2/buildtest-stampede2/tests/system/ulimits.yml
+2020-06-12 15:50:28,988 [base.py:291 - __init__() ] - [DEBUG] Processing Buildspec section: ulimit_cputime
+2020-06-12 15:50:28,991 [base.py:318 - __init__() ] - [DEBUG] Shell Details: 
+2020-06-12 15:50:28,991 [base.py:319 - __init__() ] - [DEBUG] Shell Name: bash
+2020-06-12 15:50:28,992 [base.py:320 - __init__() ] - [DEBUG] Shell Opts: 
+2020-06-12 15:50:28,992 [base.py:321 - __init__() ] - [DEBUG] Shell Path: /bin/bash
+2020-06-12 15:50:28,992 [base.py:322 - __init__() ] - [DEBUG] Shell Shebang: #!/bin/bash
+2020-06-12 15:50:28,992 [base.py:324 - __init__() ] - [DEBUG] Shebang used for test: #!/bin/bash
+2020-06-12 15:50:28,992 [base.py:290 - __init__() ] - [DEBUG] Processing Buildspec: /work/06908/sms1990/stampede2/buildtest-stampede2/tests/system/ulimits.yml
+2020-06-12 15:50:28,992 [base.py:291 - __init__() ] - [DEBUG] Processing Buildspec section: ulimit_stacksize
+2020-06-12 15:50:28,994 [base.py:318 - __init__() ] - [DEBUG] Shell Details: 
+2020-06-12 15:50:28,994 [base.py:319 - __init__() ] - [DEBUG] Shell Name: bash
+2020-06-12 15:50:28,994 [base.py:320 - __init__() ] - [DEBUG] Shell Opts: 
+2020-06-12 15:50:28,994 [base.py:321 - __init__() ] - [DEBUG] Shell Path: /bin/bash
+2020-06-12 15:50:28,994 [base.py:322 - __init__() ] - [DEBUG] Shell Shebang: #!/bin/bash
+2020-06-12 15:50:28,994 [base.py:324 - __init__() ] - [DEBUG] Shebang used for test: #!/bin/bash
+2020-06-12 15:50:28,994 [base.py:358 - get_test_extension() ] - [DEBUG] Setting test extension to 'sh'
+2020-06-12 15:50:28,995 [base.py:439 - _write_test() ] - [INFO] Opening Test File for Writing: /tmp/tests/ulimit_filelock.sh
+2020-06-12 15:50:28,995 [base.py:449 - _write_test() ] - [DEBUG] Applying permission 755 to /tmp/tests/ulimit_filelock.sh so that test can be executed
+2020-06-12 15:50:28,995 [base.py:358 - get_test_extension() ] - [DEBUG] Setting test extension to 'sh'
+2020-06-12 15:50:28,995 [base.py:439 - _write_test() ] - [INFO] Opening Test File for Writing: /tmp/tests/ulimit_cputime.sh
+2020-06-12 15:50:28,995 [base.py:449 - _write_test() ] - [DEBUG] Applying permission 755 to /tmp/tests/ulimit_cputime.sh so that test can be executed
+2020-06-12 15:50:28,995 [base.py:358 - get_test_extension() ] - [DEBUG] Setting test extension to 'sh'
+2020-06-12 15:50:28,995 [base.py:439 - _write_test() ] - [INFO] Opening Test File for Writing: /tmp/tests/ulimit_stacksize.sh
+2020-06-12 15:50:28,995 [base.py:449 - _write_test() ] - [DEBUG] Applying permission 755 to /tmp/tests/ulimit_stacksize.sh so that test can be executed
+2020-06-12 15:50:28,998 [base.py:60 - __init__() ] - [DEBUG] buildtest found the available schema: {'script': {'1.0': 'script-v1.0.schema.json', 'latest': 'script-v1.0.schema.json'}, 'compiler': {'1.0': 'compiler-v1.0.schema.json', 'latest': 'compiler-v1.0.schema.json'}} in schema library
+2020-06-12 15:50:29,002 [utils.py:40 - load_schema() ] - [DEBUG] Successfully loaded schema file: /work/06908/sms1990/stampede2/buildtest-framework/buildtest/buildsystem/schemas/global.schema.json
+2020-06-12 15:50:29,002 [base.py:103 - _validate_global() ] - [DEBUG] Validating /work/06908/sms1990/stampede2/buildtest-stampede2/tests/system/selinux.yml with schema: /work/06908/sms1990/stampede2/buildtest-framework/buildtest/buildsystem/schemas/global.schema.json
+2020-06-12 15:50:29,003 [base.py:108 - _validate_global() ] - [DEBUG] Validation was successful
+2020-06-12 15:50:29,004 [utils.py:40 - load_schema() ] - [DEBUG] Successfully loaded schema file: /work/06908/sms1990/stampede2/buildtest-framework/buildtest/buildsystem/schemas/script/script-v1.0.schema.json
+2020-06-12 15:50:29,005 [base.py:290 - __init__() ] - [DEBUG] Processing Buildspec: /work/06908/sms1990/stampede2/buildtest-stampede2/tests/system/selinux.yml
+2020-06-12 15:50:29,005 [base.py:291 - __init__() ] - [DEBUG] Processing Buildspec section: selinux_disable
+2020-06-12 15:50:29,008 [base.py:318 - __init__() ] - [DEBUG] Shell Details: 
+2020-06-12 15:50:29,008 [base.py:319 - __init__() ] - [DEBUG] Shell Name: bash
+2020-06-12 15:50:29,008 [base.py:320 - __init__() ] - [DEBUG] Shell Opts: 
+2020-06-12 15:50:29,008 [base.py:321 - __init__() ] - [DEBUG] Shell Path: /bin/bash
+2020-06-12 15:50:29,008 [base.py:322 - __init__() ] - [DEBUG] Shell Shebang: #!/bin/bash
+2020-06-12 15:50:29,008 [base.py:324 - __init__() ] - [DEBUG] Shebang used for test: #!/bin/bash
+2020-06-12 15:50:29,008 [base.py:358 - get_test_extension() ] - [DEBUG] Setting test extension to 'sh'
+2020-06-12 15:50:29,008 [base.py:439 - _write_test() ] - [INFO] Opening Test File for Writing: /tmp/tests/selinux_disable.sh
+2020-06-12 15:50:29,008 [base.py:449 - _write_test() ] - [DEBUG] Applying permission 755 to /tmp/tests/selinux_disable.sh so that test can be executed
+2020-06-12 15:50:29,011 [base.py:60 - __init__() ] - [DEBUG] buildtest found the available schema: {'script': {'1.0': 'script-v1.0.schema.json', 'latest': 'script-v1.0.schema.json'}, 'compiler': {'1.0': 'compiler-v1.0.schema.json', 'latest': 'compiler-v1.0.schema.json'}} in schema library
+2020-06-12 15:50:29,015 [utils.py:40 - load_schema() ] - [DEBUG] Successfully loaded schema file: /work/06908/sms1990/stampede2/buildtest-framework/buildtest/buildsystem/schemas/global.schema.json
+2020-06-12 15:50:29,016 [base.py:103 - _validate_global() ] - [DEBUG] Validating /work/06908/sms1990/stampede2/buildtest-stampede2/tests/system/systemd.yml with schema: /work/06908/sms1990/stampede2/buildtest-framework/buildtest/buildsystem/schemas/global.schema.json
+2020-06-12 15:50:29,016 [base.py:108 - _validate_global() ] - [DEBUG] Validation was successful
+2020-06-12 15:50:29,017 [utils.py:40 - load_schema() ] - [DEBUG] Successfully loaded schema file: /work/06908/sms1990/stampede2/buildtest-framework/buildtest/buildsystem/schemas/script/script-v1.0.schema.json
+2020-06-12 15:50:29,018 [base.py:290 - __init__() ] - [DEBUG] Processing Buildspec: /work/06908/sms1990/stampede2/buildtest-stampede2/tests/system/systemd.yml
+2020-06-12 15:50:29,019 [base.py:291 - __init__() ] - [DEBUG] Processing Buildspec section: systemd_default_target
+2020-06-12 15:50:29,021 [base.py:318 - __init__() ] - [DEBUG] Shell Details: 
+2020-06-12 15:50:29,021 [base.py:319 - __init__() ] - [DEBUG] Shell Name: bash
+2020-06-12 15:50:29,021 [base.py:320 - __init__() ] - [DEBUG] Shell Opts: 
+2020-06-12 15:50:29,021 [base.py:321 - __init__() ] - [DEBUG] Shell Path: /bin/bash
+2020-06-12 15:50:29,021 [base.py:322 - __init__() ] - [DEBUG] Shell Shebang: #!/bin/bash
+2020-06-12 15:50:29,021 [base.py:324 - __init__() ] - [DEBUG] Shebang used for test: #!/bin/bash
+2020-06-12 15:50:29,021 [base.py:358 - get_test_extension() ] - [DEBUG] Setting test extension to 'sh'
+2020-06-12 15:50:29,021 [base.py:439 - _write_test() ] - [INFO] Opening Test File for Writing: /tmp/tests/systemd_default_target.sh
+2020-06-12 15:50:29,021 [base.py:449 - _write_test() ] - [DEBUG] Applying permission 755 to /tmp/tests/systemd_default_target.sh so that test can be executed
+2020-06-12 15:50:29,024 [base.py:60 - __init__() ] - [DEBUG] buildtest found the available schema: {'script': {'1.0': 'script-v1.0.schema.json', 'latest': 'script-v1.0.schema.json'}, 'compiler': {'1.0': 'compiler-v1.0.schema.json', 'latest': 'compiler-v1.0.schema.json'}} in schema library
+2020-06-12 15:50:29,028 [utils.py:40 - load_schema() ] - [DEBUG] Successfully loaded schema file: /work/06908/sms1990/stampede2/buildtest-framework/buildtest/buildsystem/schemas/global.schema.json
+2020-06-12 15:50:29,028 [base.py:103 - _validate_global() ] - [DEBUG] Validating /work/06908/sms1990/stampede2/buildtest-stampede2/tests/system/shared_fs.yml with schema: /work/06908/sms1990/stampede2/buildtest-framework/buildtest/buildsystem/schemas/global.schema.json
+2020-06-12 15:50:29,029 [base.py:108 - _validate_global() ] - [DEBUG] Validation was successful
+2020-06-12 15:50:29,029 [utils.py:40 - load_schema() ] - [DEBUG] Successfully loaded schema file: /work/06908/sms1990/stampede2/buildtest-framework/buildtest/buildsystem/schemas/script/script-v1.0.schema.json
+2020-06-12 15:50:29,031 [base.py:290 - __init__() ] - [DEBUG] Processing Buildspec: /work/06908/sms1990/stampede2/buildtest-stampede2/tests/system/shared_fs.yml
+2020-06-12 15:50:29,031 [base.py:291 - __init__() ] - [DEBUG] Processing Buildspec section: filesystem_check
+2020-06-12 15:50:29,034 [base.py:318 - __init__() ] - [DEBUG] Shell Details: 
+2020-06-12 15:50:29,034 [base.py:319 - __init__() ] - [DEBUG] Shell Name: bash
+2020-06-12 15:50:29,034 [base.py:320 - __init__() ] - [DEBUG] Shell Opts: 
+2020-06-12 15:50:29,034 [base.py:321 - __init__() ] - [DEBUG] Shell Path: /bin/bash
+2020-06-12 15:50:29,034 [base.py:322 - __init__() ] - [DEBUG] Shell Shebang: #!/bin/bash
+2020-06-12 15:50:29,034 [base.py:324 - __init__() ] - [DEBUG] Shebang used for test: #!/bin/bash
+2020-06-12 15:50:29,034 [base.py:358 - get_test_extension() ] - [DEBUG] Setting test extension to 'sh'
+2020-06-12 15:50:29,034 [base.py:439 - _write_test() ] - [INFO] Opening Test File for Writing: /tmp/tests/filesystem_check.sh
+2020-06-12 15:50:29,034 [base.py:449 - _write_test() ] - [DEBUG] Applying permission 755 to /tmp/tests/filesystem_check.sh so that test can be executed
+2020-06-12 15:50:29,036 [base.py:60 - __init__() ] - [DEBUG] buildtest found the available schema: {'script': {'1.0': 'script-v1.0.schema.json', 'latest': 'script-v1.0.schema.json'}, 'compiler': {'1.0': 'compiler-v1.0.schema.json', 'latest': 'compiler-v1.0.schema.json'}} in schema library
+2020-06-12 15:50:29,040 [utils.py:40 - load_schema() ] - [DEBUG] Successfully loaded schema file: /work/06908/sms1990/stampede2/buildtest-framework/buildtest/buildsystem/schemas/global.schema.json
+2020-06-12 15:50:29,040 [base.py:103 - _validate_global() ] - [DEBUG] Validating /work/06908/sms1990/stampede2/buildtest-stampede2/tests/system/timezone.yml with schema: /work/06908/sms1990/stampede2/buildtest-framework/buildtest/buildsystem/schemas/global.schema.json
+2020-06-12 15:50:29,041 [base.py:108 - _validate_global() ] - [DEBUG] Validation was successful
+2020-06-12 15:50:29,042 [utils.py:40 - load_schema() ] - [DEBUG] Successfully loaded schema file: /work/06908/sms1990/stampede2/buildtest-framework/buildtest/buildsystem/schemas/script/script-v1.0.schema.json
+2020-06-12 15:50:29,043 [base.py:290 - __init__() ] - [DEBUG] Processing Buildspec: /work/06908/sms1990/stampede2/buildtest-stampede2/tests/system/timezone.yml
+2020-06-12 15:50:29,043 [base.py:291 - __init__() ] - [DEBUG] Processing Buildspec section: get_timezone
+2020-06-12 15:50:29,046 [base.py:318 - __init__() ] - [DEBUG] Shell Details: 
+2020-06-12 15:50:29,046 [base.py:319 - __init__() ] - [DEBUG] Shell Name: bash
+2020-06-12 15:50:29,046 [base.py:320 - __init__() ] - [DEBUG] Shell Opts: 
+2020-06-12 15:50:29,046 [base.py:321 - __init__() ] - [DEBUG] Shell Path: /bin/bash
+2020-06-12 15:50:29,046 [base.py:322 - __init__() ] - [DEBUG] Shell Shebang: #!/bin/bash
+2020-06-12 15:50:29,046 [base.py:324 - __init__() ] - [DEBUG] Shebang used for test: #!/bin/bash
+2020-06-12 15:50:29,047 [base.py:358 - get_test_extension() ] - [DEBUG] Setting test extension to 'sh'
+2020-06-12 15:50:29,047 [base.py:439 - _write_test() ] - [INFO] Opening Test File for Writing: /tmp/tests/get_timezone.sh
+2020-06-12 15:50:29,047 [base.py:449 - _write_test() ] - [DEBUG] Applying permission 755 to /tmp/tests/get_timezone.sh so that test can be executed
+2020-06-12 15:50:29,047 [base.py:37 - __init__() ] - [DEBUG] Getting Executors from buildtest settings
+2020-06-12 15:50:29,047 [base.py:134 -   run() ] - [DEBUG] Running setup for executor [executor-local-bash]
+2020-06-12 15:50:29,047 [base.py:134 -   run() ] - [DEBUG] Running run for executor [executor-local-bash]
+2020-06-12 15:50:29,047 [base.py:262 -   run() ] - [DEBUG] Changing to directory /tmp/tests
+2020-06-12 15:50:29,047 [base.py:272 -   run() ] - [DEBUG] Running Test via command: /bin/bash  /tmp/tests/ulimit_filelock.sh
+2020-06-12 15:50:29,055 [base.py:293 -   run() ] - [DEBUG] Writing run output to file: /tmp/tests/run/ulimit_filelock_06-12-2020-15-50.out
+2020-06-12 15:50:29,056 [base.py:297 -   run() ] - [DEBUG] Writing run error to file: /tmp/tests/run/ulimit_filelock_06-12-2020-15-50.err
+2020-06-12 15:50:29,056 [base.py:304 -   run() ] - [DEBUG] Return code: 0 for test: /tmp/tests/ulimit_filelock.sh
+2020-06-12 15:50:29,056 [base.py:134 -   run() ] - [DEBUG] Running setup for executor [executor-local-bash]
+2020-06-12 15:50:29,056 [base.py:134 -   run() ] - [DEBUG] Running run for executor [executor-local-bash]
+2020-06-12 15:50:29,056 [base.py:262 -   run() ] - [DEBUG] Changing to directory /tmp/tests
+2020-06-12 15:50:29,056 [base.py:272 -   run() ] - [DEBUG] Running Test via command: /bin/bash  /tmp/tests/ulimit_cputime.sh
+2020-06-12 15:50:29,063 [base.py:293 -   run() ] - [DEBUG] Writing run output to file: /tmp/tests/run/ulimit_cputime_06-12-2020-15-50.out
+2020-06-12 15:50:29,064 [base.py:297 -   run() ] - [DEBUG] Writing run error to file: /tmp/tests/run/ulimit_cputime_06-12-2020-15-50.err
+2020-06-12 15:50:29,064 [base.py:304 -   run() ] - [DEBUG] Return code: 0 for test: /tmp/tests/ulimit_cputime.sh
+2020-06-12 15:50:29,064 [base.py:134 -   run() ] - [DEBUG] Running setup for executor [executor-local-bash]
+2020-06-12 15:50:29,064 [base.py:134 -   run() ] - [DEBUG] Running run for executor [executor-local-bash]
+2020-06-12 15:50:29,064 [base.py:262 -   run() ] - [DEBUG] Changing to directory /tmp/tests
+2020-06-12 15:50:29,064 [base.py:272 -   run() ] - [DEBUG] Running Test via command: /bin/bash  /tmp/tests/ulimit_stacksize.sh
+2020-06-12 15:50:29,072 [base.py:293 -   run() ] - [DEBUG] Writing run output to file: /tmp/tests/run/ulimit_stacksize_06-12-2020-15-50.out
+2020-06-12 15:50:29,072 [base.py:297 -   run() ] - [DEBUG] Writing run error to file: /tmp/tests/run/ulimit_stacksize_06-12-2020-15-50.err
+2020-06-12 15:50:29,072 [base.py:304 -   run() ] - [DEBUG] Return code: 1 for test: /tmp/tests/ulimit_stacksize.sh
+2020-06-12 15:50:29,072 [base.py:134 -   run() ] - [DEBUG] Running setup for executor [executor-local-bash]
+2020-06-12 15:50:29,073 [base.py:134 -   run() ] - [DEBUG] Running run for executor [executor-local-bash]
+2020-06-12 15:50:29,073 [base.py:262 -   run() ] - [DEBUG] Changing to directory /tmp/tests
+2020-06-12 15:50:29,073 [base.py:272 -   run() ] - [DEBUG] Running Test via command: /bin/bash  /tmp/tests/selinux_disable.sh
+2020-06-12 15:50:29,087 [base.py:293 -   run() ] - [DEBUG] Writing run output to file: /tmp/tests/run/selinux_disable_06-12-2020-15-50.out
+2020-06-12 15:50:29,088 [base.py:297 -   run() ] - [DEBUG] Writing run error to file: /tmp/tests/run/selinux_disable_06-12-2020-15-50.err
+2020-06-12 15:50:29,088 [base.py:304 -   run() ] - [DEBUG] Return code: 0 for test: /tmp/tests/selinux_disable.sh
+2020-06-12 15:50:29,088 [base.py:134 -   run() ] - [DEBUG] Running setup for executor [executor-local-bash]
+2020-06-12 15:50:29,088 [base.py:134 -   run() ] - [DEBUG] Running run for executor [executor-local-bash]
+2020-06-12 15:50:29,088 [base.py:262 -   run() ] - [DEBUG] Changing to directory /tmp/tests
+2020-06-12 15:50:29,088 [base.py:272 -   run() ] - [DEBUG] Running Test via command: /bin/bash  /tmp/tests/systemd_default_target.sh
+2020-06-12 15:50:29,100 [base.py:293 -   run() ] - [DEBUG] Writing run output to file: /tmp/tests/run/systemd_default_target_06-12-2020-15-50.out
+2020-06-12 15:50:29,100 [base.py:297 -   run() ] - [DEBUG] Writing run error to file: /tmp/tests/run/systemd_default_target_06-12-2020-15-50.err
+2020-06-12 15:50:29,100 [base.py:304 -   run() ] - [DEBUG] Return code: 0 for test: /tmp/tests/systemd_default_target.sh
+2020-06-12 15:50:29,100 [base.py:134 -   run() ] - [DEBUG] Running setup for executor [executor-local-bash]
+2020-06-12 15:50:29,100 [base.py:134 -   run() ] - [DEBUG] Running run for executor [executor-local-bash]
+2020-06-12 15:50:29,100 [base.py:262 -   run() ] - [DEBUG] Changing to directory /tmp/tests
+2020-06-12 15:50:29,101 [base.py:272 -   run() ] - [DEBUG] Running Test via command: /bin/bash  /tmp/tests/filesystem_check.sh
+2020-06-12 15:50:29,125 [base.py:293 -   run() ] - [DEBUG] Writing run output to file: /tmp/tests/run/filesystem_check_06-12-2020-15-50.out
+2020-06-12 15:50:29,126 [base.py:297 -   run() ] - [DEBUG] Writing run error to file: /tmp/tests/run/filesystem_check_06-12-2020-15-50.err
+2020-06-12 15:50:29,126 [base.py:304 -   run() ] - [DEBUG] Return code: 0 for test: /tmp/tests/filesystem_check.sh
+2020-06-12 15:50:29,126 [base.py:134 -   run() ] - [DEBUG] Running setup for executor [executor-local-bash]
+2020-06-12 15:50:29,126 [base.py:134 -   run() ] - [DEBUG] Running run for executor [executor-local-bash]
+2020-06-12 15:50:29,126 [base.py:262 -   run() ] - [DEBUG] Changing to directory /tmp/tests
+2020-06-12 15:50:29,126 [base.py:272 -   run() ] - [DEBUG] Running Test via command: /bin/bash  /tmp/tests/get_timezone.sh
+2020-06-12 15:50:29,134 [base.py:293 -   run() ] - [DEBUG] Writing run output to file: /tmp/tests/run/get_timezone_06-12-2020-15-50.out
+2020-06-12 15:50:29,134 [base.py:297 -   run() ] - [DEBUG] Writing run error to file: /tmp/tests/run/get_timezone_06-12-2020-15-50.err
+2020-06-12 15:50:29,134 [base.py:304 -   run() ] - [DEBUG] Return code: 0 for test: /tmp/tests/get_timezone.sh

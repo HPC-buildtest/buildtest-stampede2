@@ -1,28 +1,33 @@
-version: 0.0.1
+version: "1.0"
 
 srun_hostname_1x8:
+  executor: local.bash
   type: script
   description: execute 'hostname' via srun using 8 cores on 1 node
   run: srun -N 1 -n 8 -p normal -t 00:10 hostname
 
 srun_hostname_1x16:
+  executor: local.bash
   type: script
   description: execute 'hostname' via srun using 16 cores on 1 node
   run: srun -N 1 -n 16 -p normal -t 00:10 hostname
 
 srun_hostname_1x24:
+  executor: local.bash
   type: script
   description: execute 'hostname' via srun using 24 cores on 1 node
   run: srun -N 1 -n 24 -p normal -t 00:10 hostname
 
 
 srun_hostname_1x32:
+  executor: local.bash
   type: script
   description: execute 'hostname' via srun using 32 cores on 1 node
   run: srun -N 1 -n 32 -p normal -t 00:10 hostname
 
 
 srun_hostname_1x40:
+  executor: local.bash
   type: script
   description: execute 'hostname' via srun using 40 cores on 1 node
   run: srun -N 1 -n 40 -p normal -t 00:10 hostname

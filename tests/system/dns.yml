@@ -1,5 +1,6 @@
-version: 0.0.1
+version: "1.0"
 ping_nameserver:
+  executor: local.bash
   type: script
   description: Ping stampede2 name servers
   run: |
@@ -8,6 +9,7 @@ ping_nameserver:
     ping -c 5 129.114.97.2
 
 nslookup_dns:
+  executor: local.bash
   type: script
   description: check if forward and reverse zone lookup for name servers
   run: |

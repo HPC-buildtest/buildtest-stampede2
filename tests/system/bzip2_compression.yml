@@ -1,5 +1,6 @@
-version: 0.0.1
+version: "1.0"
 bzip2_compression:
+  executor: local.bash
   type: script
   description: bzip2 compression test using /dev/zero and /dev/random for 500M
   run: |
