@@ -1,16 +1,13 @@
-version: 0.0.1
-
-vecadd_gnu:
-  type: script
-  description: Vector Addition example with GNU compiler
-  env:
-    cc: gcc
-    cflags: -fopenacc
-    ldflags: -lm
-    exe: vecAdd
-    srcdir: /work/06908/sms1990/stampede2/buildtest-stampede2/tests/apps/openacc/src
-  run: |
-    module load gcc
-    $cc $cflags -o $exe $srcdir/vecAdd.c $ldflags
-    ./$exe
-    
+version: "1.0"
+buildspecs:
+  vecadd_gnu:
+    executor: local.bash
+    type: compiler
+    description: Vector Addition example with GNU compiler
+    module:
+      - "module load gcc"
+    compiler:
+      name: gnu
+      source: src/vecAdd.c
+      cflags: -fopenacc
+      ldflags: -lm

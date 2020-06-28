@@ -1,6 +1,7 @@
 version: "1.0"
-get_timezone:
-  executor: local.bash
-  type: script
-  description: Make sure timezone is set to CDT
-  run: timedatectl | grep "Time zone" |  awk '{print $3'}
+buildspecs:
+  get_timezone:
+    executor: local.bash
+    type: script
+    description: Make sure timezone is set to CDT
+    run: timedatectl | grep "Time zone" |  awk '{print $3'}

@@ -1,45 +1,49 @@
 version: "1.0"
+buildspecs:
+  ulimit_filelock:
+    executor: local.bash
+    type: script
+    description: Check if file lock is set to unlimited in ulimits
+    run: |
+      filelock=`ulimit -a | grep "file locks" | awk {'print $4'}`
+      if [ "$filelock" = "unlimited" ]; then
+        echo "filelock is set to unlimited"
+        exit 0
+      fi
 
-ulimit_filelock:
-  executor: local.bash
-  type: script
-  description: Check if file lock is set to unlimited in ulimits
-  run: |
-    filelock=`ulimit -a | grep "file locks" | awk {'print $4'}`
-    if [ "$filelock" = "unlimited" ]; then
-      echo "filelock is set to unlimited"
-      exit 0
-    fi
-    
-    echo "filelock is set to $filelock"
-    exit 1
+      echo "filelock is set to $filelock"
+      exit 1
+    status:
+      returncode: 0
 
+  ulimit_cputime:
+    executor: local.bash
+    type: script
+    description: Check if cputime is set to unlimited in ulimits
+    run: |
+      cputime=`ulimit -a | grep "cpu time" | awk {'print $5'}`
+      if [ "$cputime" = "unlimited" ]; then
+        echo "cpu time is set to unlimited"
+        exit 0
+      fi
 
-ulimit_cputime:
-  executor: local.bash
-  type: script
-  description: Check if cputime is set to unlimited in ulimits
-  run: |
-    cputime=`ulimit -a | grep "cpu time" | awk {'print $5'}`
-    if [ "$cputime" = "unlimited" ]; then
-      echo "cpu time is set to unlimited"
-      exit 0
-    fi
+      echo "cpu time is set to cputime"
+      exit 1
+    status:
+      returncode: 0
 
-    echo "cpu time is set to cputime"
-    exit 1
+  ulimit_stacksize:
+    executor: local.bash
+    type: script
+    description: Check if stack size is set to unlimited in ulimits
+    run: |
+      stacksize=`ulimit -a | grep "stack size" | awk {'print $5'}`
+      if [ "stacksize" = "unlimited" ]; then
+        echo "stack size is set to unlimited"
+        exit 0
+      fi
 
-
-ulimit_stacksize:
-  executor: local.bash
-  type: script
-  description: Check if stack size is set to unlimited in ulimits
-  run: |
-    stacksize=`ulimit -a | grep "stack size" | awk {'print $5'}`
-    if [ "stacksize" = "unlimited" ]; then
-      echo "stack size is set to unlimited"
-      exit 0
-    fi
-
-    echo "stack size is set to $stacksize"
-    exit 1
+      echo "stack size is set to $stacksize"
+      exit 1
+    status:
+      returncode: 0

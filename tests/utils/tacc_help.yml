@@ -1,10 +1,11 @@
 version: "1.0"
-tacc_help_showTip:
-  executor: local.bash
-  type: script
-  description: test command showTip provided by tacc_help module
-  run: |
-    module load tacc_help
-    showTip -v
-    showTip -n 1
-    showTip -a
+buildspecs:
+  tacc_help_showTip:
+    executor: local.bash
+    type: script
+    description: test command showTip provided by tacc_help module
+    run: |
+      module load tacc_help
+      showTip -v
+      showTip -n 1
+      showTip -a

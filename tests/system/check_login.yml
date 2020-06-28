@@ -1,21 +1,22 @@
 version: "1.0"
-ping_login:
-  executor: local.bash
-  type: script
-  description: "ping all login nodes in stampede2 to ensure they are reachable"
-  run: |
-    ping -c 5 login1
-    ping -c 5 login2
-    ping -c 5 login3
-    ping -c 5 login4
+buildspecs:
+  ping_login:
+    executor: local.bash
+    type: script
+    description: "ping all login nodes in stampede2 to ensure they are reachable"
+    run: |
+      ping -c 5 login1
+      ping -c 5 login2
+      ping -c 5 login3
+      ping -c 5 login4
 
-ssh_check:
-  executor: local.bash
-  type: script
-  description: "check passwordless ssh is working on all login nodes"  
-  run: |
-    ssh login1 hostname
-    ssh login2 hostname
-    ssh login3 hostname
-    ssh login4 hostname
+  ssh_check:
+    executor: local.bash
+    type: script
+    description: "check passwordless ssh is working on all login nodes"
+    run: |
+      ssh login1 hostname
+      ssh login2 hostname
+      ssh login3 hostname
+      ssh login4 hostname
   

@@ -1,15 +1,16 @@
 version: "1.0"
-idev_exists:
-  executor: local.bash
-  type: script
-  description: Check if idev command exists
-  run: |
-    file /bin/idev
-    which idev
-    idev -v
+buildspecs:
+  idev_exists:
+    executor: local.bash
+    type: script
+    description: Check if idev command exists
+    run: |
+      file /bin/idev
+      which idev
+      idev -v
 
-submit_via_idev:
-  executor: local.bash
-  type: script
-  description: Run job via idev on 'normal' partition with 1 Node 1 task for 2 min
-  run: idev -p normal -N 1 -n 1 -m 2
+  submit_via_idev:
+    executor: local.bash
+    type: script
+    description: Run job via idev on 'normal' partition with 1 Node 1 task for 2 min
+    run: idev -p normal -N 1 -n 1 -m 1

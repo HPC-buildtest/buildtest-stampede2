@@ -1,11 +1,11 @@
 version: "1.0"
-
-filesystem_check:
-  executor: local.bash
-  type: script
-  description: "Check $HOME, $WORK, $SCRATCH, $STOCKYARD are accessible"
-  run: |
-    ls $HOME
-    ls $WORK
-    ls $SCRATCH
-    ls $STOCKYARD
+buildspecs:
+  filesystem_check:
+    executor: local.bash
+    type: script
+    description: "Check $HOME, $WORK, $SCRATCH, $STOCKYARD are accessible"
+    run: |
+      ls $HOME
+      ls $WORK
+      ls $SCRATCH
+      ls $STOCKYARD

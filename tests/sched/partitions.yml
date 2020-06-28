@@ -1,37 +1,38 @@
 version: "1.0"
-partition_state:
-  executor: local.bash
-  type: script
-  description: Display slurm partition and availability
-  run: sinfo -O available,partition -h
+buildspecs:
+  partition_state:
+    executor: local.bash
+    type: script
+    description: Display slurm partition and availability
+    run: sinfo -O available,partition -h
 
-drained_nodes:
-  executor: local.bash
-  type: script
-  description: List reason for drained and down nodes
-  run: sinfo -R
+  drained_nodes:
+    executor: local.bash
+    type: script
+    description: List reason for drained and down nodes
+    run: sinfo -R
 
-queue_limits:
-  executor: local.bash
-  type: script
-  description: Check queue limits n real-time via 'qlimits' 
-  run: qlimits
+  queue_limits:
+    executor: local.bash
+    type: script
+    description: Check queue limits n real-time via 'qlimits'
+    run: qlimits
 
-show_qos:
-  executor: local.bash
-  type: script
-  description: Show Slurm Quality of Service (QOS) with priority
-  run: sacctmgr show qos --format=name,priority
+  show_qos:
+    executor: local.bash
+    type: script
+    description: Show Slurm Quality of Service (QOS) with priority
+    run: sacctmgr show qos --format=name,priority
 
-slurm_account_query:
-  executor: local.bash
-  type: script
-  description: Test if slurm accounting (sacct) is working 
-  run: sacct -S 2020-01-01 --format=jobid,user,ncpus,ntasks,state,exit
+  slurm_account_query:
+    executor: local.bash
+    type: script
+    description: Test if slurm accounting (sacct) is working
+    run: sacct -S 2020-01-01 --format=jobid,user,ncpus,ntasks,state,exit
 
-showq_test:
-  executor: local.bash
-  type: script
-  description: Test if showq command is working
-  run: showq
+  showq_test:
+    executor: local.bash
+    type: script
+    description: Test if showq command is working
+    run: showq
 

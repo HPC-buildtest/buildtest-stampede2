@@ -1,30 +1,25 @@
-version: 0.0.1
-fortan_hello:
-  type: script
-  description: hello world program in Fortran compiled with gnu compiler
-  env:
-    srcdir: $WORK/buildtest-stampede2/tests/apps/serial/src
-    exe: hello_f90
-  run: |
-    gfortran -o $exe $srcdir/hello.f90
-    ./$exe
+version: "1.0"
+buildspecs:
+  fortan_hello:
+    type: compiler
+    executor: local.bash
+    description: hello world program in Fortran compiled with gnu compiler
+    compiler:
+      name: gnu
+      source: src/hello.f90
 
-c_hello:
-  type: script
-  description: hello world program in C compiled with gnu compiler
-  env:
-    srcdir: $WORK/buildtest-stampede2/tests/apps/serial/src
-    exe: hello_c
-  run: |
-    gcc -o $exe $srcdir/hello.c
-    ./$exe
+  c_hello:
+    type: compiler
+    executor: local.bash
+    description: hello world program in C compiled with gnu compiler
+    compiler:
+      name: gnu
+      source: src/hello.f90
 
-cplusplus_hello:
-  type: script
-  description: hello world program in C++ compiled with gnu compiler
-  env:
-    srcdir: $WORK/buildtest-stampede2/tests/apps/serial/src
-    exe: hello_cpp
-  run: |
-    g++ -o $exe $srcdir/hello.cpp
-    ./$exe
+  cplusplus_hello:
+    executor: local.bash
+    type: compiler
+    description: hello world program in C++ compiled with gnu compiler
+    compiler:
+      name: gnu
+      source: src/hello.cpp

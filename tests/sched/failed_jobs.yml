@@ -1,31 +1,33 @@
 version: "1.0"
-missing_total_tasks:
-  executor: local.bash
-  description: This job fails because '-n' option is required
-  type: script
-  run: srun -p normal -N1 -t 00:10 hostname
-  status:
-    returncode: 1
-missing_total_nodes:
-  executor: local.bash
-  description: This job fails because '-N' option is required
-  type: script
-  run: srun -p normal -n1 -t 00:10 hostname
-  status:
-    returncode: 1
+buildspecs:
+  missing_total_tasks:
+    executor: local.bash
+    description: This job fails because '-n' option is required
+    type: script
+    run: srun -p normal -N1 -t 00:10 hostname
+    status:
+      returncode: 1
 
-missing_walltime:
-  executor: local.bash
-  description: This job fails because '-t' option is required
-  type: script
-  run: srun -p normal -n1 -N1 hostname
-  status:
-    returncode: 1
+  missing_total_nodes:
+    executor: local.bash
+    description: This job fails because '-N' option is required
+    type: script
+    run: srun -p normal -n1 -t 00:10 hostname
+    status:
+      returncode: 1
 
-memory_option_not_available:
-  executor: local.bash
-  description: This job fails because '--mem' option is not supported in stampede2
-  type: script
-  run: srun -p normal -n1 -N1 -t 00:00 --mem 50M hostname
-  status:
-    returncode: 1
+  missing_walltime:
+    executor: local.bash
+    description: This job fails because '-t' option is required
+    type: script
+    run: srun -p normal -n1 -N1 hostname
+    status:
+      returncode: 1
+
+  memory_option_not_available:
+    executor: local.bash
+    description: This job fails because '--mem' option is not supported in stampede2
+    type: script
+    run: srun -p normal -n1 -N1 -t 00:00 --mem 50M hostname
+    status:
+      returncode: 1

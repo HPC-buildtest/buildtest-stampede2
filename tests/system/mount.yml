@@ -1,12 +1,13 @@
-version: 1.0
-check_mounts:
-  executor: local.bash
-  type: script
-  description: Check important mount points for stampede2
-  run: |
-    mountpoint /admin
-    mountpoint /scratch
-    mountpoint /home
-    mountpoint /work
-    mountpoint /gpfs/corral3/tacc
-    mountpoint /gpfs/corral3/repl
+version: "1.0"
+buildspecs:
+  check_mounts:
+    executor: local.bash
+    type: script
+    description: Check important mount points for stampede2
+    run: |
+      mountpoint /admin
+      mountpoint /scratch
+      mountpoint /home
+      mountpoint /work
+      mountpoint /gpfs/corral3/tacc
+      mountpoint /gpfs/corral3/repl
