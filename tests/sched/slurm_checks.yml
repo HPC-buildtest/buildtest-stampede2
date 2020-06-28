@@ -12,12 +12,6 @@ buildspecs:
     description: List reason for drained and down nodes
     run: sinfo -R
 
-  queue_limits:
-    executor: local.bash
-    type: script
-    description: Check queue limits n real-time via 'qlimits'
-    run: qlimits
-
   show_qos:
     executor: local.bash
     type: script

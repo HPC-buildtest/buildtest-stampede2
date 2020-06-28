@@ -1,0 +1,8 @@
+version: "1.0"
+buildspecs:
+  queue_limits:
+    executor: local.bash
+    type: script
+    description: Check queue limits n real-time via 'qlimits'
+    run: qlimits
+

@@ -1,0 +1,17 @@
+version: "1.0"
+buildspecs:
+  showq:
+    executor: local.bash
+    type: script
+    description: Test if showq command is working
+    run: showq
+   
+  showq_user:
+    executor: local.bash
+    type: script
+    run: showq --user
+    
+  showq_reservation:
+    executor: local.bash
+    type: script
+    run: showq --all-resevr
