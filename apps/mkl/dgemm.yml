@@ -4,7 +4,7 @@ buildspecs:
     executor: local.bash
     type: compiler
     description: dgemm test one against intel/18.0.2
-    compiler:
+    build:
       name: intel
       cflags: -mkl
       source: src/mkl_dgemm.c
@@ -15,7 +15,7 @@ buildspecs:
     executor: local.bash
     type: compiler
     description: dgemm test one against intel/17.0.4
-    compiler:
+    build:
       name: intel
       cflags: -mkl
       source: src/mkl_dgemm.c
@@ -26,7 +26,7 @@ buildspecs:
     executor: local.bash
     type: compiler
     description: dgemm test one against intel/16.0.3
-    compiler:
+    build:
       name: intel
       cflags: -mkl
       source: src/mkl_dgemm.c

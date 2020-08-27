@@ -4,6 +4,7 @@ buildspecs:
     executor: local.bash
     description: This job fails because '-n' option is required
     type: script
+    tags: [slurmjobs]
     run: srun -p normal -N1 -t 00:10 hostname
     status:
       returncode: 1
@@ -12,6 +13,7 @@ buildspecs:
     executor: local.bash
     description: This job fails because '-N' option is required
     type: script
+    tags: [slurmjobs]
     run: srun -p normal -n1 -t 00:10 hostname
     status:
       returncode: 1
@@ -21,6 +23,7 @@ buildspecs:
     description: This job fails because '-t' option is required
     type: script
     run: srun -p normal -n1 -N1 hostname
+    tags: [slurmjobs]
     status:
       returncode: 1
 
@@ -29,5 +32,6 @@ buildspecs:
     description: This job fails because '--mem' option is not supported in stampede2
     type: script
     run: srun -p normal -n1 -N1 -t 00:00 --mem 50M hostname
+    tags: [slurmjobs]
     status:
       returncode: 1

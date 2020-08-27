@@ -5,6 +5,7 @@ buildspecs:
     type: script
     description: Check if kernel version is matching
     run: uname -r
+    tags: [system]
     status:
       regex:
         stream: stdout

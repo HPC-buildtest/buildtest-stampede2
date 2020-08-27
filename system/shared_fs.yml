@@ -3,6 +3,7 @@ buildspecs:
   filesystem_check:
     executor: local.bash
     type: script
+    tags: [filesystem]
     description: "Check $HOME, $WORK, $SCRATCH, $STOCKYARD are accessible"
     run: |
       ls $HOME

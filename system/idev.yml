@@ -3,6 +3,7 @@ buildspecs:
   idev_exists:
     executor: local.bash
     type: script
+    tags: [tools]
     description: Check if idev command exists
     run: |
       file /bin/idev

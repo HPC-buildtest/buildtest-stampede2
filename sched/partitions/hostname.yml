@@ -1,0 +1,17 @@
+version: "1.0"
+buildspecs:
+  normal_partition_hostname:
+    type: script
+    executor: slurm.normal
+    description: Run hostname on normal partition
+    tags: [slurmjobs]
+    sbatch: [ "-t 5", "-n 1", "-N 1" ] 
+    run: hostname
+
+  development_partition_hostname:
+    type: script
+    executor: slurm.development
+    description: Run hostname on development partition
+    tags: [slurmjobs]
+    sbatch: [ "-t 5", "-n 1", "-N 1" ] 
+    run: hostname

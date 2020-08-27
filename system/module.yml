@@ -3,6 +3,7 @@ buildspecs:
   check_default_lmod_module:
     executor: local.bash
     type: script
+    tags: [environment]
     description: Check if LMOD_SYSTEM_DEFAULT_MODULES is set to TACC
     run: echo "$LMOD_SYSTEM_DEFAULT_MODULES"
     status:

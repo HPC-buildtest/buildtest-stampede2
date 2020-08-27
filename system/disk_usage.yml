@@ -3,6 +3,7 @@ buildspecs:
   root_disk_usage:
     executor: local.bash
     type: script
+    tags: [filesystem, storage]
     description: Check root disk usage and report if it exceeds threshold
     env:
       threshold: 90

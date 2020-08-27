@@ -3,5 +3,6 @@ buildspecs:
   get_timezone:
     executor: local.bash
     type: script
+    tags: [system]
     description: Make sure timezone is set to CDT
     run: timedatectl | grep "Time zone" |  awk '{print $3'}

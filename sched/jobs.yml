@@ -3,6 +3,7 @@ buildspecs:
   srun_hostname_1x8:
     executor: slurm.normal
     type: script
+    tags: [slurmjobs]
     description: execute 'hostname' via using 8 cores on 1 node
     sbatch:
       - "-N 1"
@@ -13,6 +14,7 @@ buildspecs:
   srun_hostname_1x16:
     executor: slurm.normal
     type: script
+    tags: [slurmjobs]
     description: execute 'hostname' via using 16 cores on 1 node
     sbatch:
       - "-N 1"
@@ -23,6 +25,7 @@ buildspecs:
   srun_hostname_1x24:
     executor: slurm.normal
     type: script
+    tags: [slurmjobs]
     description: execute 'hostname' via using 24 cores on 1 node
     sbatch:
       - "-N 1"
@@ -33,6 +36,7 @@ buildspecs:
   srun_hostname_1x32:
     executor: slurm.normal
     type: script
+    tags: [slurmjobs]
     description: execute 'hostname' via using 32 cores on 1 node
     sbatch:
       - "-N 1"
@@ -43,6 +47,7 @@ buildspecs:
   srun_hostname_1x40:
     executor: slurm.normal
     type: script
+    tags: [slurmjobs]
     description: execute 'hostname' via using 40 cores on 1 node
     sbatch:
       - "-N 1"

@@ -3,6 +3,7 @@ buildspecs:
   ulimit_filelock:
     executor: local.bash
     type: script
+    tags: [system]
     description: Check if file lock is set to unlimited in ulimits
     run: |
       filelock=`ulimit -a | grep "file locks" | awk {'print $4'}`
@@ -13,12 +14,11 @@ buildspecs:
 
       echo "filelock is set to $filelock"
       exit 1
-    status:
-      returncode: 0
 
   ulimit_cputime:
     executor: local.bash
     type: script
+    tags: [system]
     description: Check if cputime is set to unlimited in ulimits
     run: |
       cputime=`ulimit -a | grep "cpu time" | awk {'print $5'}`
@@ -29,12 +29,11 @@ buildspecs:
 
       echo "cpu time is set to cputime"
       exit 1
-    status:
-      returncode: 0
 
   ulimit_stacksize:
     executor: local.bash
     type: script
+    tags: [system]
     description: Check if stack size is set to unlimited in ulimits
     run: |
       stacksize=`ulimit -a | grep "stack size" | awk {'print $5'}`
@@ -45,5 +44,3 @@ buildspecs:
 
       echo "stack size is set to $stacksize"
       exit 1
-    status:
-      returncode: 0

@@ -3,15 +3,18 @@ buildspecs:
   showq:
     executor: local.bash
     type: script
+    tags: [tools]
     description: Test if showq command is working
     run: showq
    
   showq_user:
     executor: local.bash
     type: script
+    tags: [tools]
     run: showq --user
     
   showq_reservation:
     executor: local.bash
+    tags: [tools]
     type: script
     run: showq --all-resevr

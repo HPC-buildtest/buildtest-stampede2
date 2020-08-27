@@ -6,7 +6,7 @@ buildspecs:
     description: Vector Addition example with GNU compiler
     module:
       - "module load gcc"
-    compiler:
+    build:
       name: gnu
       source: src/vecAdd.c
       cflags: -fopenacc

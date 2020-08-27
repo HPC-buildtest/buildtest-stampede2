@@ -1,0 +1,42 @@
+executors:
+  defaults:
+    launcher: sbatch
+    pollinterval: 10
+  local:
+    bash:
+      description: submit jobs on local machine using bash shell
+      shell: bash
+
+    sh:
+      description: submit jobs on local machine using sh shell
+      shell: sh
+
+    python:
+      description: submit jobs on local machine using python shell
+      shell: python
+
+  slurm:
+    normal:
+      partition: normal
+      description: normal Queue
+
+    development:
+      partition: development
+      description: development Queue
+
+    large:
+      partition: large
+      description: large Queue
+
+    long:
+      partition: long
+      description: long queue
+
+    skx-dev:
+      partition: skx-dev
+      description: Skylake Development 
+config:
+  editor: vi
+  paths:
+    buildspec_roots:
+      - $WORK/buildtest-stampede2

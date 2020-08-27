@@ -3,6 +3,7 @@ buildspecs:
   queue_limits:
     executor: local.bash
     type: script
+    tags: [tools]
     description: Check queue limits n real-time via 'qlimits'
     run: qlimits
 

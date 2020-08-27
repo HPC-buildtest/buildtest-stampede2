@@ -3,6 +3,7 @@ buildspecs:
   tacc_help_showTip:
     executor: local.bash
     type: script
+    tags: [tools]
     description: test command showTip provided by tacc_help module
     run: |
       module load tacc_help

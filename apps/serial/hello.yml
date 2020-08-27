@@ -4,7 +4,7 @@ buildspecs:
     type: compiler
     executor: local.bash
     description: hello world program in Fortran compiled with gnu compiler
-    compiler:
+    build:
       name: gnu
       source: src/hello.f90
 
@@ -12,7 +12,7 @@ buildspecs:
     type: compiler
     executor: local.bash
     description: hello world program in C compiled with gnu compiler
-    compiler:
+    build:
       name: gnu
       source: src/hello.f90
 
@@ -20,6 +20,6 @@ buildspecs:
     executor: local.bash
     type: compiler
     description: hello world program in C++ compiled with gnu compiler
-    compiler:
+    build:
       name: gnu
       source: src/hello.cpp

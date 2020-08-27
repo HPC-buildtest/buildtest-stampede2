@@ -3,6 +3,7 @@ buildspecs:
   account_alias_check:
     executor: local.bash
     type: script
+    tags: [environment]
     description: "This will check the account alias 'cdh, cdw, cds, cdy, cdg'"
     run: |
       type cdh

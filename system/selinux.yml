@@ -3,5 +3,6 @@ buildspecs:
   selinux_disable:
     executor: local.bash
     type: script
+    tags: [system, security]
     description: Check if SELinux is Disabled
     run: cat /etc/selinux/config | egrep -e "^SELINUX=disabled$"

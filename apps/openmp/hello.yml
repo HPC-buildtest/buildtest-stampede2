@@ -6,7 +6,7 @@ buildspecs:
     type: compiler
     env:
       OMP_NUM_THREADS: 2
-    compiler:
+    build:
       name: gnu
       source: src/omp_hello.c
       cflags: -fopenmp
@@ -22,7 +22,7 @@ buildspecs:
       - "-t 00:10:00"
     env:
       OMP_NUM_THREADS: 4
-    compiler:
+    build:
       name: gnu
       source: src/omp_hello.c
       cflags: -fopenmp
