@@ -37,7 +37,7 @@ buildspecs:
     description: Check if stack size is set to unlimited in ulimits
     run: |
       stacksize=`ulimit -a | grep "stack size" | awk {'print $5'}`
-      if [ "stacksize" = "unlimited" ]; then
+      if [ "$stacksize" = "unlimited" ]; then
         echo "stack size is set to unlimited"
         exit 0
       fi
